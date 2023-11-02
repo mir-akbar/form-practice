@@ -46,8 +46,10 @@ textarea {
 }
 
 input:focus, textarea:focus {
-  outline: 1px solid -webkit-focus-ring-color;
+  outline: 2px solid -webkit-focus-ring-color;
   border-color: #000;
+  border-radius: 0.2em;
+
 }
 
 
