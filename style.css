@@ -45,12 +45,11 @@ textarea {
   border: 1px solid #999;
 }
 
-input:focus,
-textarea:focus, input:active, textarea:active {
-  /* Additional highlight for focused elements */
-  outline: 1px solid blue;
+input:focus, textarea:focus {
+  outline: 1px solid -webkit-focus-ring-color;
   border-color: #000;
 }
+
 
 textarea {
   /* Align multiline text fields with their labels */
